@@ -1,0 +1,70 @@
+html, body {
+    height: 100%; 
+    overflow: hidden;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.flex {
+    
+    height: 100%;
+    overflow: hidden;
+}
+
+.flex .menu {
+    flex: 0 0 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #f2f2f2;
+    overflow: auto;
+    min-height: 450px;
+}
+
+.menu .fa {
+    font-size: 1.5em;
+    cursor: pointer;
+    flex: 0 0 auto;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.menu .fa:hover {
+    background: rgba(100,155,170,.6);
+}
+
+.flex .channels {
+    flex: 0 0 200px;
+    padding: 10px;
+    background: #936c6c;
+    overflow-y: auto;
+}
+
+.channels li {
+    cursor: pointer; 
+    border-radius: 3px;
+    margin: 2px;
+    padding-left: 5px;
+}
+
+.channels li:hover {
+    background: #42f4d9;
+}
+
+
+.flex main {
+    flex: auto;
+    overflow: scroll;
+    padding: 25px;
+    min-width: 300px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+

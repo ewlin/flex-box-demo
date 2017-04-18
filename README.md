@@ -6,6 +6,11 @@ In `new.html`, you'll notice that the `<body>` is tagged with a class of 'flex'.
 will serve as our main Flexbox container. 
 
 The important thing to notice here is: 
+```html
+<body class="flex">
+....
+</body>
+```
 
 ```css  
 .flex {

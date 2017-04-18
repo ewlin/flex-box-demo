@@ -21,7 +21,7 @@ The important thing to notice here is:
 
 Since `<body>` has a `class="flex"` on it, in the corresponding css file, you can 
 select the `<body>` with `.flex` and set up our outer flexbox. To do that, recall
-that all you need is to declare `display: flex`. 
+that all you need is to declare `display: flex` on the `<body>` element. 
 
 **Note**: I called the class 'flex'. You can call it whatever you want. Best practice is 
 to use a word/compound-word that describes what you are trying to style, or how you're 
